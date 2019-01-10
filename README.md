@@ -14,7 +14,7 @@ This creates a global `aml` object, that can be used to instantiate the models, 
 
 # Docs and examples
 
-Below this section are two examples for how to use code in automl-js. Beyond this, see docs at [https://automl-js.github.io](https://automl-js.github.io) for description of objects and functions of automljs, and `tests` folder for example usage of functionality.
+Below this section are two examples for how to use code in automl-js. Beyond this, see docs at [https://automl-js.github.io/automl-js/](https://automl-js.github.io/automl-js/) for description of objects and functions of automljs, and `tests` folder for example usage of functionality.
 
 # Example automl estimator
 
