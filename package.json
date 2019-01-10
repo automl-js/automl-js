@@ -1,0 +1,80 @@
+{
+  "name": "automljs",
+  "version": "1.0.0",
+  "description": "AutoML in JavaScript.",
+  "main": "src/automljs.js",
+  "directories": {
+    "test": "tests",
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "serve",
+    "test": "istanbul cover -x *.test.js _mocha -- -R spec tests/*.test.js -t 5000",
+    "check-coverage": "istanbul check-coverage --statements 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once",
+    "document": "rimraf docs && jsdoc src/*.js -d docs --readme README.md",
+    "uglify": "uglifyjs dist/automljs.js -o dist/automljs.min.js",
+    "makebrowser": "rimraf dist && browserify src/automljs.js --standalone aml -o dist/automljs.js",
+    "build": "npm run makebrowser && npm run document && npm run uglify && cp dist/automljs.min.js ui/automljs.min.js",
+    "commit": "git-cz",
+    "commitall": "npm run build && git add -A && git-cz"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:iaros/aitable.git"
+  },
+  "keywords": [
+    "hyperparameter",
+    "tuning",
+    "machine learning",
+    "artificial intelligence"
+  ],
+  "author": "Iaroslav Shcherbatyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/iaros/aitable/issues"
+  },
+  "homepage": "https://duck-pufferfish-ef3r.squarespace.com",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "codecov.io": "0.1.6",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "ghooks": "2.0.2",
+    "istanbul": "1.1.0-alpha.1",
+    "mocha": "5.0.5",
+    "rimraf": "2.6.2",
+    "semantic-release": "15.10.2",
+    "travis-deploy-once": "^4.4.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "0.13.1",
+    "@tensorflow/tfjs-node": "0.1.18",
+    "base64-js": "1.3.0",
+    "browserify": "16.2.0",
+    "copyfiles": "2.1.0",
+    "inchjs": "0.4.1",
+    "jsdoc": "3.5.5",
+    "mermaid": "8.0.0-rc.8",
+    "ml": "3.5.0",
+    "ml-dataset-iris": "1.0.0",
+    "numjs": "0.16.0",
+    "optimization-js": "1.4.0",
+    "semantic-release-cli": "^3.6.6",
+    "serve": "10.0.2",
+    "travis": "0.1.1",
+    "uglify-es": "3.3.9",
+    "webworker-threads": "0.7.17",
+    "webworkify": "1.5.0"
+  }
+}

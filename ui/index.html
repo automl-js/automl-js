@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser AutoML</title>
+
+    <!-- The core library of automljs -->
+    <script src="./automljs.min.js"></script>
+
+    <!-- Simplifies some DOM operations-->
+    <script src="./jquery-3.3.1.min.js"></script>
+
+    <!-- CSV visualization library -->
+    <link href="./tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./tabulator.min.js"></script>
+    <script src="./papaparse.min.js"></script>
+
+    <!-- Decision tree rendering into SVG  lib -->
+    <script src="./mermaid.min.js"></script>
+    <link rel="stylesheet" href="./mermaid.min.css" type="text/css" />
+    <script src="./mermaidAPI.min.js"></script>
+
+    <!-- SVG viewer library -->
+    <script src="./svg-pan-zoom.min.js"></script>
+    
+    <!-- Page style lib -->
+    <link rel="stylesheet" href="./google-fonts.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./milligram.min.css">
+
+</head>
+<body>
+    <!-- Makes the page interactive-->
+    <script src='./index.js'></script>
+
+    <main class='wrapper'>
+        <header class='header' id='landing_head'>
+            <section class='container'>
+                <h1 align="center">Fully in-browser AutoML</h1>
+                <h3>
+                    Do not want to upload your data to central site for processing?
+                    Want almost zero latency / offline evaluation of your models? 
+                    Want to retrain models on customer side with their data? 
+                    Want to run automated ML model selection on a dataset with zero setup?
+                    Then this page is for you. 
+                </h3>
+                <p>
+                    On this page, you can run patter recognition algorithms on your
+                    data. The data is processed locally in your browser, which preserves
+                    anonymity of the data.
+                </p>
+            </section>
+        </header>
+        <section class='container'>
+            <div class="row">
+                    <div class="column">
+                        <label>Upload CSV</label>
+                        <input type="file" id='dataset_file' onchange="uploadCSV()">
+                    </div>
+                    <div class="column">
+                        <label>Example datasets</label>
+                        <a href="./concrete.csv">concrete.csv</a>
+                    </div>
+            </div>
+
+            <div id='dataset_rendering'></div>
+            <button onclick="runTraining()">Learn ML model</button>
+            <button onclick="terminateTraining()">Terminate </button>
+
+            <label>Best decision tree</label>
+            <p>Score: <i id='tree_score'></i></p>
+            <div id="best_decision_tree"></div>
+
+            <label>Best linear model</label>
+            <p>Score: <i id='lin_score'></i></p>
+            <div id="best_linear_model"></div>
+            <!-- 
+                <label>Estimations with the model</label>
+                <div>TBD</div>
+            -->
+        </section>
+    </main>
+
+
+</body>
+</html>

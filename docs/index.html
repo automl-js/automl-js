@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>automl-js</h1><p>Automated Machine Learning, done locally in browser or on a server with nodejs. Ground up implementation of ML algorithms for both regression and classification, such as Decision Trees, Linear Models and Gradient Boosting with Decision Trees. The implementation is benchmarked against excellent <code>scikit-learn</code> library to give quite close, albeit somewhat smaller (at most 1 percent of classification accuracy on average) score.</p>
+<h1>Installation</h1><p>The code should be used in browser using standard script import:</p>
+<pre class="prettyprint source lang-html"><code>&lt;script src=&quot;./dist/automljs.js&quot;>&lt;/script></code></pre><p>This creates a global <code>aml</code> object, that can be used to instantiate the models, do data splitting and preprocessing, etc. If you wish to run it in nodejs, install the package with npm and import using <code>require</code>.</p>
+<h1>Docs and examples</h1><p>Below this section are two examples for how to use code in automl-js. Beyond this, see docs at <a href="https://automl-js.github.io">https://automl-js.github.io</a> for description of objects and functions of automljs, and <code>tests</code> folder for example usage of functionality.</p>
+<h1>Example automl estimator</h1><pre class="prettyprint source lang-javascript"><code>// automl-js uses asynchronous functionality of JavaScript
+async function main(){
+    // Each row is an observation, each column is a feature (similar to numpy)
+    // Mixed types: categorical and numerical, missing values are handled automatically
+    var X = [
+        ['a', 0.6],
+        ['b', -1.3],
+        ['a', 1.1],
+        ['b', -2],
+        ['a', 0.5],
+        ['b', &quot;&quot;],  // missing value
+        ['a', 0.4],
+        ['', 1.1],  // missing value
+        ['b', -0.8],
+        ['a', &quot;1e-1&quot;]  // wrong type
+    ]
+
+    // Outputs are a vector / 1d array
+    var y = ['pos', 'neg', 'pos', 'neg', 'neg', 'pos', 'neg', 'pos', 'neg', 'pos']
+
+    // Create a model instance
+    var model = new aml.automl.AutoMLModel({
+        'max_iter': 7  // specifies how many iterations you are willing to wait for result
+    })
+
+    // Does internally data splitting into training and testing
+    // Tries a bunch of ML models to see which one fits best
+    await model.fit(X, y)
+
+    // Evaluate the best found model
+    var score = await model.score(X, y)
+
+    // Get estimations by the model; Interface same as sklearn
+    var y_pred = await model.predict(X)
+}
+
+// run the async function
+main()</code></pre><h1>Example learning with estimator</h1><p>The code should be run in browser. If you wish to run it in nodejs, install the package with npm and import using <code>require</code>.</p>
+<pre class="prettyprint source lang-html"><code>&lt;script src=&quot;./dist/automljs.js&quot;>&lt;/script>
+
+&lt;script>
+    async function main(){
+        // Data needs to be of numeric type for regular estimators
+        var X = [
+            [1, 0],
+            [0, 1],
+            [1, 1],
+            [0, 0]
+        ]
+
+        // Outputs are a vector / 1d array
+        var y = [1, 2, 2, 0]
+
+        // Create a model instance; Names of parameters are mostly similar to sklearn
+        var model = new aml.ensemble.GradientBoostingRegressor({'n_estimators':10, 'learning_rate': 1.0, 'loss': 'ls'})
+
+        // Fit the model
+        await model.fit(X, y)
+
+        // Evaluate the model
+        var score = await model.score(X, y)
+
+        // Get estimations by the model; Interface same as sklearn
+        var y_pred = await model.predict(X)
+    }
+
+    main()
+&lt;/script></code></pre></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AutoMLModel.html">AutoMLModel</a></li><li><a href="BaseEstimator.html">BaseEstimator</a></li><li><a href="DecisionTreeBase.html">DecisionTreeBase</a></li><li><a href="DecisionTreeClassifier.html">DecisionTreeClassifier</a></li><li><a href="DecisionTreeRegressor.html">DecisionTreeRegressor</a></li><li><a href="GradientBoostingClassifier.html">GradientBoostingClassifier</a></li><li><a href="GradientBoostingRegressor.html">GradientBoostingRegressor</a></li><li><a href="LabelBinarizer.html">LabelBinarizer</a></li><li><a href="OMGSearchCV.html">OMGSearchCV</a></li><li><a href="SGDRegressor.html">SGDRegressor</a></li><li><a href="StandardScaler.html">StandardScaler</a></li><li><a href="TableFeaturesTransformer.html">TableFeaturesTransformer</a></li></ul><h3>Global</h3><ul><li><a href="global.html#accuracy_score">accuracy_score</a></li><li><a href="global.html#check_1dy">check_1dy</a></li><li><a href="global.html#check_2dX">check_2dX</a></li><li><a href="global.html#check_2dXy">check_2dXy</a></li><li><a href="global.html#check_array">check_array</a></li><li><a href="global.html#check_is_fitted">check_is_fitted</a></li><li><a href="global.html#ClassifierMixin">ClassifierMixin</a></li><li><a href="global.html#clone">clone</a></li><li><a href="global.html#cross_val_score">cross_val_score</a></li><li><a href="global.html#dumpjson">dumpjson</a></li><li><a href="global.html#loadjson">loadjson</a></li><li><a href="global.html#make_murmaid">make_murmaid</a></li><li><a href="global.html#r2_score">r2_score</a></li><li><a href="global.html#random_partitioning">random_partitioning</a></li><li><a href="global.html#RegressorMixin">RegressorMixin</a></li><li><a href="global.html#score">score</a></li><li><a href="global.html#set_defaults">set_defaults</a></li><li><a href="global.html#shuffle">shuffle</a></li><li><a href="global.html#t1d">t1d</a></li><li><a href="global.html#t2d">t2d</a></li><li><a href="global.html#train_test_split">train_test_split</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Thu Jan 10 2019 16:10:45 GMT+0100 (CET)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

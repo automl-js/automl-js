@@ -1,0 +1,489 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/iaroslav/automl-js/python_prototypes
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=8ada01f3d3c2694971d7095560674c6cb5bc6f14de842827
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=8ada01f3d3c2694971d7095560674c6cb5bc6f14de842827&token=8ada01f3d3c2694971d7095560674c6cb5bc6f14de842827
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: bb9e56bf-4f8e-4615-b82d-2af135b318e6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bb9e56bf-4f8e-4615-b82d-2af135b318e6
+[NotebookApp | INFO] Saving file at /benchmarks.ipynb
+[NotebookApp | INFO] Copying benchmarks.ipynb to 
+[NotebookApp | INFO] Kernel started: 88a55b81-8439-4463-a610-24877a192177
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 88a55b81-8439-4463-a610-24877a192177
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 88a55b81-8439-4463-a610-24877a192177:341f5ea95e9942318cb7701310961cc8
+[NotebookApp | INFO] Starting buffering for bb9e56bf-4f8e-4615-b82d-2af135b318e6:b3d0845e3ab44364aecd2e33bbc3e449
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 2 kernels
+[NotebookApp | INFO] Kernel shutdown: bb9e56bf-4f8e-4615-b82d-2af135b318e6
+[NotebookApp | INFO] Kernel shutdown: 88a55b81-8439-4463-a610-24877a192177
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/iaroslav/automl-js/python_prototypes
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=acfe581e0b50260906a0168bd9671a2edcfd4652e2436fd6
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=acfe581e0b50260906a0168bd9671a2edcfd4652e2436fd6&token=acfe581e0b50260906a0168bd9671a2edcfd4652e2436fd6
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Kernel restarted: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Restoring connection for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Kernel interrupted: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Kernel restarted: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Restoring connection for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Kernel interrupted: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Kernel restarted: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | INFO] Restoring connection for a4d5036a-6869-47ad-96f6-7384cda8e382:cddbbbd19a87455994ec36e9e42e022c
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: a4d5036a-6869-47ad-96f6-7384cda8e382
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/iaroslav/automl-js/python_prototypes
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=1f352f49e14f6c4e4e09cab8668f6d467fbdd5fd748575ff
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1f352f49e14f6c4e4e09cab8668f6d467fbdd5fd748575ff&token=1f352f49e14f6c4e4e09cab8668f6d467fbdd5fd748575ff
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Kernel interrupted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Kernel restarted: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | INFO] Restoring connection for 046b6d10-47d3-4c8d-8300-a55f5ac31e4c:92045365f85946d992a7ccdb6b3109af
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 046b6d10-47d3-4c8d-8300-a55f5ac31e4c
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/iaroslav/automl-js/python_prototypes
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=4a802e89da39b0281c36f0bd62319c2635cf583c324fdafe
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4a802e89da39b0281c36f0bd62319c2635cf583c324fdafe&token=4a802e89da39b0281c36f0bd62319c2635cf583c324fdafe
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Kernel restarted: 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Restoring connection for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Kernel restarted: 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Restoring connection for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Kernel restarted: 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | INFO] Restoring connection for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for 666971df-8067-4a46-bc51-fd0c8b1f85af:3794688116f349c687c091be8cb670eb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 666971df-8067-4a46-bc51-fd0c8b1f85af
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/iaroslav/automl-js/python_prototypes
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=746b96558e9daf3de0a9098a2456c23a5589ff0a13506099
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=746b96558e9daf3de0a9098a2456c23a5589ff0a13506099&token=746b96558e9daf3de0a9098a2456c23a5589ff0a13506099
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: d4ec01d4-6542-495c-bcec-70c8ebcbf67d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d4ec01d4-6542-495c-bcec-70c8ebcbf67d
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for d4ec01d4-6542-495c-bcec-70c8ebcbf67d:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: d4ec01d4-6542-495c-bcec-70c8ebcbf67d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d4ec01d4-6542-495c-bcec-70c8ebcbf67d
+[NotebookApp | INFO] Restoring connection for d4ec01d4-6542-495c-bcec-70c8ebcbf67d:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Starting buffering for d4ec01d4-6542-495c-bcec-70c8ebcbf67d:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel shutdown: d4ec01d4-6542-495c-bcec-70c8ebcbf67d
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/iaroslav/.local/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/home/iaroslav/.local/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 272, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/iaroslav/.local/lib/python3.5/site-packages/notebook/services/kernels/kernelmanager.py", line 351, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d4ec01d4-6542-495c-bcec-70c8ebcbf67d)
+[NotebookApp | ERROR] {
+      "X-Xsrftoken": "2|a5756ac9|d14bb71dbc6b0a50d09bf0755449f95c|1543840524",
+      "Connection": "keep-alive",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Content-Length": "0",
+      "Host": "localhost:8888",
+      "Referer": "http://localhost:8888/notebooks/automl-bench.ipynb",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Origin": "http://localhost:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "Cookie": "ss_cvr=d330059d-7a14-4bda-805e-cba9fbbe7d39|1540157827308|1540157827308|1540157827308|1; _xsrf=2|a5756ac9|d14bb71dbc6b0a50d09bf0755449f95c|1543840524; username-localhost-8888=\"2|1:0|10:1546368756|23:username-localhost-8888|44:MmFiNjg1YjQ2OTk2NGI5MGIyOGU4MTA5ZTE4YTljOWI=|5dc6dad05b5e9156aa300f2c7e1b5906a98ac9743501986b8e1cf44b930ae171\""
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/d4ec01d4-6542-495c-bcec-70c8ebcbf67d/restart (127.0.0.1) 6.80ms referer=http://localhost:8888/notebooks/automl-bench.ipynb
+[NotebookApp | WARNING] 404 DELETE /api/sessions/403e5afd-882d-4048-9f4c-6299c9b371f4 (127.0.0.1): Session not found: session_id='403e5afd-882d-4048-9f4c-6299c9b371f4'
+[NotebookApp | WARNING] Session not found: session_id='403e5afd-882d-4048-9f4c-6299c9b371f4'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/403e5afd-882d-4048-9f4c-6299c9b371f4 (127.0.0.1) 1.56ms referer=http://localhost:8888/notebooks/automl-bench.ipynb
+[NotebookApp | INFO] Kernel started: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Kernel started: d0afd73c-b3b5-4160-a587-b32a76a0eeee
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d0afd73c-b3b5-4160-a587-b32a76a0eeee
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Kernel interrupted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Kernel interrupted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Kernel restarted: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Restoring connection for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Saving file at /automl-bench.ipynb
+[NotebookApp | INFO] Starting buffering for dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c:6ad739fcb35f4553a02a2fd1803bf812
+[NotebookApp | INFO] Starting buffering for d0afd73c-b3b5-4160-a587-b32a76a0eeee:6ca7150f8aa1415ebcfc4bb13631ac87
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 2 kernels
+[NotebookApp | INFO] Kernel shutdown: dfdbd729-853e-40b0-9f4a-5a3ddf9ed63c
+[NotebookApp | INFO] Kernel shutdown: d0afd73c-b3b5-4160-a587-b32a76a0eeee

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: metrics.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: metrics.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>const tf = require('@tensorflow/tfjs');
+const utils = require('./utils')
+
+/**
+ * R^2 (coefficient of determination) regression score function.
+ * Best possible score is 1.0 and it can be negative (because the
+ * model can be arbitrarily worse). A constant model that always
+ * predicts the expected value of y, disregarding the input features,
+ * would get a R^2 score of 0.0.
+ * @param {Array} y_true array-like of shape = (n_samples); Ground truth (correct) target values. 
+ * @param {Array} y_pred array-like of shape = (n_samples) or (n_samples, n_outputs); Estimated target values.
+ * @param {Array} sample_weight array-like of shape = (n_samples), optional; Sample weights.
+ */
+function r2_score(y_true, y_pred){
+    var y_pred = utils.t1d(y_pred)
+    var y_true = utils.t1d(y_true)
+    
+    var mean = tf.mean(y_true) // can be seen as predictions of a constant model
+    
+    // calculate errors of trivial model
+    var base_errors = tf.sub(y_true, mean)
+    base_errors = tf.sum(tf.pow(base_errors, 2))
+    base_errors = base_errors.get()
+
+    var model_errors = tf.sub(y_true, y_pred)
+    model_errors = tf.sum(tf.pow(model_errors, 2))
+    model_errors = model_errors.get()
+
+    if(base_errors === 0.0){
+        return 0.0
+    }
+
+    return 1.0 - model_errors / base_errors
+}
+
+module.exports.r2_score = r2_score
+
+/**
+ * In multilabel classification, this function computes subset accuracy:
+ * the set of labels predicted for a sample must *exactly* match the
+ * corresponding set of labels in y_true.
+ * @param {Array} y_true 1d array-like, or label indicator array; Ground truth (correct) labels
+ * @param {Array} y_pred 1d array-like, or label indicator array; Predicted labels, as returned by a classifier.
+ */
+function accuracy_score(y_true, y_pred){
+    var total_accurate = 0
+    for(var i = 0; i&lt;y_true.length; i++){
+        if(y_true[i] === y_pred[i]){
+            total_accurate += 1
+        }
+    }
+    var fraction = total_accurate / y_pred.length
+    return fraction
+}
+
+module.exports.accuracy_score = accuracy_score
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AutoMLModel.html">AutoMLModel</a></li><li><a href="BaseEstimator.html">BaseEstimator</a></li><li><a href="DecisionTreeBase.html">DecisionTreeBase</a></li><li><a href="DecisionTreeClassifier.html">DecisionTreeClassifier</a></li><li><a href="DecisionTreeRegressor.html">DecisionTreeRegressor</a></li><li><a href="GradientBoostingClassifier.html">GradientBoostingClassifier</a></li><li><a href="GradientBoostingRegressor.html">GradientBoostingRegressor</a></li><li><a href="LabelBinarizer.html">LabelBinarizer</a></li><li><a href="OMGSearchCV.html">OMGSearchCV</a></li><li><a href="SGDRegressor.html">SGDRegressor</a></li><li><a href="StandardScaler.html">StandardScaler</a></li><li><a href="TableFeaturesTransformer.html">TableFeaturesTransformer</a></li></ul><h3>Global</h3><ul><li><a href="global.html#accuracy_score">accuracy_score</a></li><li><a href="global.html#check_1dy">check_1dy</a></li><li><a href="global.html#check_2dX">check_2dX</a></li><li><a href="global.html#check_2dXy">check_2dXy</a></li><li><a href="global.html#check_array">check_array</a></li><li><a href="global.html#check_is_fitted">check_is_fitted</a></li><li><a href="global.html#ClassifierMixin">ClassifierMixin</a></li><li><a href="global.html#clone">clone</a></li><li><a href="global.html#cross_val_score">cross_val_score</a></li><li><a href="global.html#dumpjson">dumpjson</a></li><li><a href="global.html#loadjson">loadjson</a></li><li><a href="global.html#make_murmaid">make_murmaid</a></li><li><a href="global.html#r2_score">r2_score</a></li><li><a href="global.html#random_partitioning">random_partitioning</a></li><li><a href="global.html#RegressorMixin">RegressorMixin</a></li><li><a href="global.html#score">score</a></li><li><a href="global.html#set_defaults">set_defaults</a></li><li><a href="global.html#shuffle">shuffle</a></li><li><a href="global.html#t1d">t1d</a></li><li><a href="global.html#t2d">t2d</a></li><li><a href="global.html#train_test_split">train_test_split</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Thu Jan 10 2019 16:10:45 GMT+0100 (CET)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

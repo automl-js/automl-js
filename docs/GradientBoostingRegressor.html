@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Class: GradientBoostingRegressor</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Class: GradientBoostingRegressor</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2><span class="attribs"><span class="type-signature"></span></span>GradientBoostingRegressor<span class="signature">(params)</span><span class="type-signature"></span></h2>
+        
+            <div class="class-description">Gradient boosting model, for regression problems.
+As a weak learner, decision tree is used. Inspired by:
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html</div>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+    
+    <h2>Constructor</h2>
+    
+
+    
+    <h4 class="name" id="GradientBoostingRegressor"><span class="type-signature"></span>new GradientBoostingRegressor<span class="signature">(params)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    Instantiates GradientBoostingRegressor.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>params</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Dictionary with parameters for
+the model.
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>loss</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Type of loss to use. Currently
+available is 'squared_loss'.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>param.learning_rate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">How much does a single
+weak learner affect the final ensemble. Smaller values might
+require larger number of estimators for satisfactory behavior,
+but usually lead to better generalization.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>param.n_estimators</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">How many weak learners
+to use in final ensemble.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>param.min_samples_split</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Hyperparameter of
+the underlying weak learner. Minimum number of samples in the
+decision tree to form a split. Can either be a value in range
+[0.0, 1.0], which indicates the fraction of overall dataset.
+Alternatively, it could be a value greater equal 2, in which 
+case specific number of samples is specified.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>param.max_depth</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Maximum depth of the decision
+tree weak learner.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>param.min_impurity_decrease</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Minimal decrease
+of impurity value, for which to form a new split. Used in the
+training heuristic of the tree weak learner. Recommended to leave
+as 0.0.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ensemble.js.html">ensemble.js</a>, <a href="ensemble.js.html#line14">line 14</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AutoMLModel.html">AutoMLModel</a></li><li><a href="BaseEstimator.html">BaseEstimator</a></li><li><a href="DecisionTreeBase.html">DecisionTreeBase</a></li><li><a href="DecisionTreeClassifier.html">DecisionTreeClassifier</a></li><li><a href="DecisionTreeRegressor.html">DecisionTreeRegressor</a></li><li><a href="GradientBoostingClassifier.html">GradientBoostingClassifier</a></li><li><a href="GradientBoostingRegressor.html">GradientBoostingRegressor</a></li><li><a href="LabelBinarizer.html">LabelBinarizer</a></li><li><a href="OMGSearchCV.html">OMGSearchCV</a></li><li><a href="SGDRegressor.html">SGDRegressor</a></li><li><a href="StandardScaler.html">StandardScaler</a></li><li><a href="TableFeaturesTransformer.html">TableFeaturesTransformer</a></li></ul><h3>Global</h3><ul><li><a href="global.html#accuracy_score">accuracy_score</a></li><li><a href="global.html#check_1dy">check_1dy</a></li><li><a href="global.html#check_2dX">check_2dX</a></li><li><a href="global.html#check_2dXy">check_2dXy</a></li><li><a href="global.html#check_array">check_array</a></li><li><a href="global.html#check_is_fitted">check_is_fitted</a></li><li><a href="global.html#ClassifierMixin">ClassifierMixin</a></li><li><a href="global.html#clone">clone</a></li><li><a href="global.html#cross_val_score">cross_val_score</a></li><li><a href="global.html#dumpjson">dumpjson</a></li><li><a href="global.html#loadjson">loadjson</a></li><li><a href="global.html#make_murmaid">make_murmaid</a></li><li><a href="global.html#r2_score">r2_score</a></li><li><a href="global.html#random_partitioning">random_partitioning</a></li><li><a href="global.html#RegressorMixin">RegressorMixin</a></li><li><a href="global.html#score">score</a></li><li><a href="global.html#set_defaults">set_defaults</a></li><li><a href="global.html#shuffle">shuffle</a></li><li><a href="global.html#t1d">t1d</a></li><li><a href="global.html#t2d">t2d</a></li><li><a href="global.html#train_test_split">train_test_split</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Thu Jan 10 2019 16:10:45 GMT+0100 (CET)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
