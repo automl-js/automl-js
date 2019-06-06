@@ -1,5 +1,7 @@
 # automl-js
 
+[in-browser, zero setup demo](https://gifted-newton-e80eef.netlify.com/)
+
 Automated Machine Learning, done locally in browser or on a server with nodejs. Ground up implementation of ML algorithms for both regression and classification, such as Decision Trees, Linear Models and Gradient Boosting with Decision Trees. The implementation is benchmarked against excellent `scikit-learn` library to give quite close, albeit somewhat smaller (at most 1 percent of classification accuracy on average) score.
 
 # Installation
