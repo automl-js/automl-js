@@ -71,7 +71,7 @@
     "numjs": "0.16.0",
     "optimization-js": "1.4.0",
     "semantic-release-cli": "^3.6.6",
-    "serve": "10.0.2",
+    "serve": "10.1.2",
     "travis": "0.1.1",
     "uglify-es": "3.3.9",
     "webworker-threads": "0.7.17",
